@@ -1322,6 +1322,12 @@ form label {
 
 }
 
+.Jomo-font{
+  font-size: 20px;
+}
+.gaogao-3rd{
+  font-size: 20px;
+}
 
 @media screen and (min-width: 480px) and ( max-width:600px){
   .gtco-nav #gtco-logo a{
