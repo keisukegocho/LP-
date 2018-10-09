@@ -1317,7 +1317,13 @@ form label {
 .w-25 {
     width: 25%!important;
 }
-@media screen and (min-width: 480px) {
+.More{
+  margin-top: -60px;
+
+}
+
+
+@media screen and (min-width: 480px) and ( max-width:600px){
   .gtco-nav #gtco-logo a{
     margin-left: -60px;
   }
@@ -1326,4 +1332,19 @@ form label {
   .gtco-cover {
       background-position: -290px 0px!important;
   }
+}
+@media screen and (min-width:600px) and ( max-width:959px) {
+    .gtco-cover {
+        background-position: -100px 0px!important;
+    }
+}
+
+@media screen and (min-width:960px) and ( max-width:1280px) {
+    /*　画面サイズが960pxから1280pxまではここを読み込む　*/
+    .gtco-nav #gtco-logo a {
+      margin-left: 0px;
+    }
+    .gtco-cover {
+        background-position: -200px 0px!important;
+    }
 }
